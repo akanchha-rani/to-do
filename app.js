@@ -39,5 +39,5 @@ app.post('/register', async(req,res) => {
 });
 
 app.listen(3000, () => {
-    console.log('server working');
+    console.log('Server Working');
 });
