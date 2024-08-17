@@ -16,6 +16,10 @@ app.get('/', (req,res) => {
     res.render('index');
 });
 
+app.get('/login', (req,res) => {
+    res.render('login');
+});
+
 app.post('/register', async(req,res) => {
     let { email, username, password, name, age } = req.body;
 
