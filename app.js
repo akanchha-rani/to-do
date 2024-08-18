@@ -20,6 +20,11 @@ app.get('/login', (req,res) => {
     res.render('login');
 });
 
+app.get('/profile', isLoggedIn, (req,res) => {
+    console.log(req.user);
+    res.render('login');
+});
+
 app.post('/register', async(req,res) => {
     let { email, username, password, name, age } = req.body;
 
