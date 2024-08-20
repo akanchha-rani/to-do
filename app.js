@@ -11,7 +11,6 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.use(cookieParser());
 
-
 app.get('/', (req,res) => {
     res.render('index');
 });
@@ -61,6 +60,11 @@ app.post('/login', async(req,res) => {
         }
         else res.redirect("/login");
     });
+});
+
+app.get('/logout', (req,res) => {
+    res.cookie("token", "");
+    res.redirect('/login');
 });
 
 app.listen(3000, () => {
