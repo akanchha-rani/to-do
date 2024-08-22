@@ -67,6 +67,15 @@ app.get('/logout', (req,res) => {
     res.redirect('/login');
 });
 
+function isLoggedIn (req,res, next){
+    if(req.cookies.token === "") res.redirect("/login");
+    else{
+        let data = jwt.verify(req.cookies.token, "shhshh");
+        req.user = data;
+        next();
+    }
+}
+
 app.listen(3000, () => {
     console.log('Server Working');
 });
