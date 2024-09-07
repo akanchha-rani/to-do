@@ -10,6 +10,7 @@ app.set("view engine", "ejs");
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.use(cookieParser());
+app.use(express.static('public'));
 
 app.get('/', (req,res) => {
     res.render('index');
@@ -83,6 +84,11 @@ app.post('/register', async(req,res) => {
     });
 });
 
+app.get('/delete/:id', async (req,res) => {
+    let post = await postModel.findOneAndDelete({_id: req.params.id});
+    res.redirect("/profile");
+});
+
 app.post('/login', async(req,res) => {
     let { email, password } = req.body;
 
@@ -114,5 +120,5 @@ function isLoggedIn (req,res, next){
 }
 
 app.listen(3000, () => {
-    console.log('server working');
+    console.log('Server is running on port 3000');
 });
