@@ -19,3 +19,13 @@ A full-stack task-based application built with **EJS, Node.js, Express, MongoDB,
 | EJS | Node.js | MongoDB |
 | HTML5 | Express.js | Mongoose |
 | CSS | JavaScript (ES6) |
+
+## 📁 Folder Structure (Example)
+
+📦 to-do
+┣ 📂 models
+┣ 📂 public
+┣ 📂 views
+┣ 📜 app.js
+┣ 📜 package.json
+┗ 📜 README.md
