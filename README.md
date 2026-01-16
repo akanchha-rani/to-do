@@ -11,3 +11,11 @@ A full-stack task-based application built with **EJS, Node.js, Express, MongoDB,
 ✔️ EJS templating for UI  
 ✔️ Persistent storage with MongoDB  
 ✔️ Responsive and user-friendly UI
+
+## 🛠 Technology Stack
+
+| Frontend | Backend | Database |
+|----------|---------|----------|
+| EJS | Node.js | MongoDB |
+| HTML5 | Express.js | Mongoose |
+| CSS | JavaScript (ES6) |
