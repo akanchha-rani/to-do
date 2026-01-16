@@ -34,6 +34,10 @@ Frontend
 - CSS3
 - JavaScript (ES6)
 
+  Backend
+- Node.js
+- Express.js
+
 ## 📁 Folder Structure (Example)
 
 📦 to-do
