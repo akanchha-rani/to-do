@@ -5,7 +5,7 @@ Mini social media app with like, delete, update, unlike functions.
 A full-stack task-based application built with **EJS, Node.js, Express, MongoDB, and authentication (login & logout). Users can add tasks, update them, delete them, and like/unlike posts.
 
 
-🚀 Features
+##🚀 Features
 
 🔐 Authentication
 
@@ -41,30 +41,46 @@ A full-stack task-based application built with **EJS, Node.js, Express, MongoDB,
   
 - Responsive design
 
-🛠 Technology Stack
+
+##🛠 Technology Stack
 
 Frontend
+
 - EJS (Embedded JavaScript Templates)
+  
 - HTML5
+  
 - CSS3
+  
 - JavaScript (ES6)
 
   Backend
+  
 - Node.js
+  
 - Express.js
 
   Database
+  
 - MongoDB
+  
 - Mongoose ODM
+
 
 ## 📁 Folder Structure (Example)
 
 📦 to-do
+
 ┣ 📂 models
+
 ┣ 📂 public
+
 ┣ 📂 views
+
 ┣ 📜 app.js
+
 ┣ 📜 package.json
+
 ┗ 📜 README.md
 
 📝 Future Enhancements
