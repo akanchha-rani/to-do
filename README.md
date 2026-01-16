@@ -21,6 +21,10 @@ A full-stack task-based application built with **EJS, Node.js, Express, MongoDB,
 - Unlike a post
 - Like count updates dynamically
 
+🎨 UI
+- Clean and minimal interface
+- EJS templating engine
+- Responsive design
 
 ## 🛠 Technology Stack
 
