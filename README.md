@@ -16,6 +16,11 @@ A full-stack task-based application built with **EJS, Node.js, Express, MongoDB,
 - Delete tasks
 - View all tasks in a feed
 
+❤️ Social Features
+- Like a post
+- Unlike a post
+- Like count updates dynamically
+
 
 ## 🛠 Technology Stack
 
