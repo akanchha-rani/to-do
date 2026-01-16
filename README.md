@@ -16,9 +16,13 @@ A full-stack task-based application built with **EJS, Node.js, Express, MongoDB,
 - Secure routes (only logged-in users can perform actions)
   
 ### 📝 Task / Post Management
+
 - Create new tasks/posts
+  
 - Edit existing tasks
+  
 - Delete tasks
+  
 - View all tasks in a feed
 
 ❤️ Social Features
