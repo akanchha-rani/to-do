@@ -28,11 +28,11 @@ A full-stack task-based application built with **EJS, Node.js, Express, MongoDB,
 
 ## 🛠 Technology Stack
 
-| Frontend | Backend | Database |
-|----------|---------|----------|
-| EJS | Node.js | MongoDB |
-| HTML5 | Express.js | Mongoose |
-| CSS | JavaScript (ES6) |
+Frontend
+- EJS (Embedded JavaScript Templates)
+- HTML5
+- CSS3
+- JavaScript (ES6)
 
 ## 📁 Folder Structure (Example)
 
