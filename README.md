@@ -29,3 +29,10 @@ A full-stack task-based application built with **EJS, Node.js, Express, MongoDB,
 ┣ 📜 app.js
 ┣ 📜 package.json
 ┗ 📜 README.md
+
+📝 Future Enhancements
+
+✔ UI/UX improvements
+✔ Add filters/search for tasks
+✔ Allow user profiles
+✔ Real-time updates using WebSockets
