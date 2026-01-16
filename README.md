@@ -8,8 +8,11 @@ A full-stack task-based application built with **EJS, Node.js, Express, MongoDB,
 🚀 Features
 
 🔐 Authentication
+
 - User login and logout
+
 - Session-based authentication
+
 - Secure routes (only logged-in users can perform actions)
   
 ### 📝 Task / Post Management
