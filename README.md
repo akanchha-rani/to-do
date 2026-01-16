@@ -15,7 +15,7 @@ A full-stack task-based application built with **EJS, Node.js, Express, MongoDB,
 
 - Secure routes (only logged-in users can perform actions)
   
-### 📝 Task / Post Management
+📝 Task / Post Management
 
 - Create new tasks/posts
   
@@ -41,7 +41,7 @@ A full-stack task-based application built with **EJS, Node.js, Express, MongoDB,
   
 - Responsive design
 
-## 🛠 Technology Stack
+🛠 Technology Stack
 
 Frontend
 - EJS (Embedded JavaScript Templates)
