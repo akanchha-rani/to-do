@@ -5,12 +5,11 @@ A full-stack task-based application built with **EJS, Node.js, Express, MongoDB,
 
 🚀 Features
 
-✔️ User authentication (Login & Logout)  
-✔️ Create, Read, Update, Delete (CRUD) tasks  
-✔️ Like & Unlike tasks  
-✔️ EJS templating for UI  
-✔️ Persistent storage with MongoDB  
-✔️ Responsive and user-friendly UI
+🔐 Authentication
+- User login and logout
+- Session-based authentication
+- Secure routes (only logged-in users can perform actions)
+
 
 ## 🛠 Technology Stack
 
