@@ -38,6 +38,10 @@ Frontend
 - Node.js
 - Express.js
 
+  Database
+- MongoDB
+- Mongoose ODM
+
 ## 📁 Folder Structure (Example)
 
 📦 to-do
